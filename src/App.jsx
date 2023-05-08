@@ -1,5 +1,5 @@
 import { Header } from "./components";
-import { About, BarberImg, Main } from "./sections";
+import { About, BarberImg, BarberImgTwo, Main } from "./sections";
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
       <BarberImg />
       <Main />
       <About />
-      <BarberImg />
+      <BarberImgTwo />
     </div>
   );
 }
